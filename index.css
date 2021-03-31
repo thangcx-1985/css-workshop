@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+.div1 {
+    height: 200px;
+    background-color: aqua;
+}
+.div2 {
+    height: 200px;
+    background-color: bisque;
+}
+.div3 {
+    height: 200px;
+    background-color: blueviolet;
+}
+.div4 {
+    height: 200px;
+    background-color: cornflowerblue;
+}
+.div5 {
+    height: 200px;
+    background-color: darkgoldenrod;
+}
+.div6 {
+    height: 200px;
+    background-color: darkslategrey;
+}
+.ticky {
+    height: auto;
+    position: sticky;
+    bottom: 0px;
+    margin: 0;
+    padding: 10px;
+    background-color: hotpink;
+}
+.fixed {
+    margin: 10px;
+    position: fixed;
+    bottom: 70px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    background-color: lightgreen;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    border-radius: 5px;
+}
+@media (max-width: 1421px) { 
+    .fixed {
+        bottom: 90px;
+    }
+}
+@media (max-width: 975px) { 
+    .fixed {
+        bottom: 110px;
+    }
+}
+@media (max-width: 733px) { 
+    .fixed {
+        bottom: 140px;
+    }
+}
+@media (max-width: 610px) { 
+    .fixed {
+        bottom: 165px;
+    }
+}
